@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1b5696, #4ca1af);
+}
+h1{
+    color: seashell;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+
+    width: 25rem;
+    background-color:white; 
+    padding: 2rem;  
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px #1b5696;
+}
+
+h2{
+    margin-top: 0rem;
+    text-align: center;
+}
+
+
+
