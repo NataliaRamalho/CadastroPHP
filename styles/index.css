@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1b5696, #4ca1af);
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 30rem;   
+    background-color:white; 
+    padding: 2rem;  
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px #1b5696;
+}
+
+h1{
+    text-align: center;
+}
+input{
+    border: none;
+    background-color: #bac5e7;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    color:black;
+    font-size: 1rem;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: black;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: black;  
+ }
+ 
+ :-ms-input-placeholder {  
+    color: black;  
+ }
+
+h3{
+    margin: 1rem 0px 0.5rem 0px;
+}
+
+.button{
+    margin-top: 1.5rem;
+    border: none;
+    height: 3.5rem;
+    border-radius: 0.5rem;   
+    font-size: 1.5rem;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+}
+
+p{
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
