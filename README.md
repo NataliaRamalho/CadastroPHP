@@ -45,9 +45,18 @@ git clone https://github.com/NataliaRamalho/CadastroPHP.git
 <li> Edite o arquivo connection.php </li>
 Dentro da pasta services, há um arquivo com o nome connection.php.</br> 
 Abra-o e coloque o nome do usuário do seu banco de dados MySQL, 
-entre as aspas simples no local que está escrito: " define('USER', ''); "</br>
-Ainda nesse arquivo, na linha de baixo onde está escrito: "define('PASSWORD', ''); ", 
-coloque dentro das aspas simples a senha do seu banco de dados MySQL"
+entre as aspas simples no local que está escrito:
+
+```
+define('USER', ''); 
+````
+
+Ainda nesse arquivo, na linha de baixo onde está escrito:
+
+```
+define('PASSWORD', '');  
+```
+Coloque dentro das aspas simples a senha do seu banco de dados MySQL.
 
 <li>Crie o esquema no banco de dados MySQL </li>
 Abra o MySQL Workebench e digite os seguintes comando:
