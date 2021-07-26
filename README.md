@@ -1,4 +1,4 @@
-# ProjetoCadastroPhP
+# CadastroPhP
 Aplicação que o realiza o cadastro de um usuário, utilizando PHP e MySQL
 
 Sumário
